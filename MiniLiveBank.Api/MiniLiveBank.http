@@ -1,0 +1,6 @@
+@MiniLiveBank_HostAddress = http://localhost:5084
+
+GET {{MiniLiveBank_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

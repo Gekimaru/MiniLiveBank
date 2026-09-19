@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MiniLiveBank.Core/MiniLiveBank.Core.csproj" />
+  <Project Path="MiniLiveBank.Tests/MiniLiveBank.Tests.csproj" />
+  <Project Path="MiniLiveBank.Api/MiniLiveBank.Api.csproj" />
+</Solution>
