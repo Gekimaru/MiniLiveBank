@@ -4,6 +4,13 @@ namespace MiniLiveBank.Core.Models;
 
 public class Session
 {
+    public Session(string customerName)
+    {
+        CustomerName = customerName;
+        Status = SessionStatus.Waiting;
+        CreatedAt = DateTime.UtcNow;
+    }
+
     public int Id { get; set; }
     public string CustomerName { get; set; } = string.Empty;
     public int? AdvisorId { get; set; }
