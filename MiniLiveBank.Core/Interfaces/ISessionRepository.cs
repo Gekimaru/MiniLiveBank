@@ -10,6 +10,6 @@ public interface ISessionRepository
     Task AddSessionAsync(Session session);
     Task<List<Session>> GetWaitingListAsync();
     Task<Session?> GetSessionByIdAsync(int sessionId);
-
+    Task<Advisor?> GetAdvisorByIdAsync(int advisorId);
     Task SaveChangesAsync();
 }
