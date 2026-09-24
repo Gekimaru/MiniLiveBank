@@ -41,6 +41,7 @@ public class SessionService
         {
             throw new InvalidSessionStateException($"Session:{session.Id} is not in a waiting state, it's in {session.Status} state when trying to accept.");
         }
+ 
         var advisor = await _sessionRepository.GetAdvisorByIdAsync(advisorId);
         if (advisor is null)
         {
